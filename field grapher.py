@@ -1,6 +1,20 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+Jx=np.load('filepath')
+Jy=np.load('filepath')
+Jz=np.load('filepath')
+
+Ax=np.load('filepath')
+Ay=np.load('filepath')
+Az=np.load('filepath')
+
+Bx=np.load('filepath')
+By=np.load('filepath')
+Bz=np.load('filepath')
+
+
+
 X, Y, Z =  np.meshgrid(x[10:190:5],y[10:190:5],z[10:190:5],indexing='ij')
 
 fig = plt.figure(figsize=(10,10))
