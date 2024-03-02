@@ -70,3 +70,7 @@ Jx[50:150,48:52,38:42]=20000000
 Jx[50:150,148:152,38:42]=-20000000
 Jy[48:52,50:150,38:42]=-20000000
 Jy[148:152,50:150,38:42]=20000000
+
+np.save('your filepath here',Jx)
+np.save('your filepath here',Jy)
+np.save('your filepath here',Jz)
